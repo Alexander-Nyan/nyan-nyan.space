@@ -1,0 +1,15 @@
+html {
+  overflow: hidden;
+  user-select: none;
+}
+
+.name {
+  position: fixed;
+  top: 5vh;
+  right: 5vh;
+}
+
+.avatar {
+  position: fixed;
+  bottom: 0;
+}

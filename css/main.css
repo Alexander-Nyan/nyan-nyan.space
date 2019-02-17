@@ -1,15 +1,35 @@
 html {
-  overflow: hidden;
-  user-select: none;
+	height: 100%;
+}
+
+body {
+	height: 100%;
+	margin: 0;
+	user-select: none;
 }
 
 .name {
-  position: fixed;
-  top: 5vh;
-  right: 5vh;
+	position: fixed;
+	top: 5vh;
+	right: 5vh;
+	pointer-events: none;
 }
 
 .avatar {
-  position: fixed;
-  bottom: 0;
+	position: fixed;
+	bottom: 0;
+	pointer-events: none;
+}
+
+.social {
+	position: fixed;
+	bottom: 5vh;
+	right: 10vh;
+	display: flex;
+}
+
+.social__image {
+	width: 10vh;
+	height: 10vh;
+	padding-right: 2vh;
 }
